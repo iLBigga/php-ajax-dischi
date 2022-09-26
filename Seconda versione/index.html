@@ -24,9 +24,16 @@
         <main class="main-section py-5">
             <div class="container-xl">
                 <div class="row row-cols-lg-5 g-2">
-                    <ul class="custom_card p-2">
-                        <li v-for="album in albums">{{album.title}} </li>
-                    </ul>
+                    <div v-for="album in albums" class="custom_card p-2">
+                        <img :src="album.poster">
+                        <div class="card_body py-3">
+                            <p class="title">{{album.title}}</p>
+                            <div class="card_author">
+                                <div class="author">{{album.author}}</div>
+                                <div class="year">{{album.year}}</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
