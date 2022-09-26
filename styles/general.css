@@ -1,0 +1,56 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: #2E3A46;
+}
+
+.logo_spotify {
+    width: 50px;
+}
+
+.select {
+    padding: 0 1rem;
+}
+
+.main-section{
+    background-color: #1E2D3B;
+    flex-grow: 1;
+}
+
+.custom_card {
+    color: white;
+    padding: 1rem;
+    background-color: #2E3A46;
+    text-align: center;
+}
+
+
+.title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card_author {
+    font-size: 1.2rem;
+}
+
+
+.year {
+    color: lightslategray;
+    margin: 0;
+}
